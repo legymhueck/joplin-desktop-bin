@@ -29,7 +29,7 @@ source_x86_64=(
   "${_upstream_pkgname}-${pkgver}.deb::https://github.com/laurent22/joplin/releases/download/v${pkgver}/${_upstream_pkgname}-${pkgver}.deb"
   "LICENSE::https://raw.githubusercontent.com/laurent22/joplin/v${pkgver}/LICENSE"
 )
-noextract_x86_64=("${_upstream_pkgname}-${pkgver}.deb")
+noextract=("${_upstream_pkgname}-${pkgver}.deb")
 sha256sums_x86_64=(
   '1b7f42d2ee978b1adf5cd95b8880b48769f42e3135076632392192022e300e7d'
   'f6b29267fe2c4251ed95cf9c846b47774a970c5960be9eb8a409f21ffd98425e'
