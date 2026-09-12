@@ -1,6 +1,6 @@
 pkgbase = joplin-desktop-bin
 	pkgdesc = Joplin desktop repackaged from the official upstream Debian release
-	pkgver = 3.6.16
+	pkgver = 3.7.18
 	pkgrel = 1
 	url = https://joplinapp.org/
 	arch = x86_64
@@ -23,11 +23,11 @@ pkgbase = joplin-desktop-bin
 	conflicts = joplin-appimage
 	conflicts = joplin-beta
 	conflicts = joplin-beta-bin
-	noextract = Joplin-3.6.16.deb
+	noextract = Joplin-3.7.18.deb
 	options = !strip
-	source_x86_64 = Joplin-3.6.16.deb::https://github.com/laurent22/joplin/releases/download/v3.6.16/Joplin-3.6.16.deb
-	source_x86_64 = LICENSE::https://raw.githubusercontent.com/laurent22/joplin/v3.6.16/LICENSE
-	sha256sums_x86_64 = 1b7f42d2ee978b1adf5cd95b8880b48769f42e3135076632392192022e300e7d
+	source_x86_64 = Joplin-3.7.18.deb::https://github.com/laurent22/joplin/releases/download/v3.7.18/Joplin-3.7.18.deb
+	source_x86_64 = LICENSE::https://raw.githubusercontent.com/laurent22/joplin/v3.7.18/LICENSE
+	sha256sums_x86_64 = f4ca6a58731fe8a4a645cdfd22b2e54abd6ffd877e4ec9aa8b7c65f6b71b521f
 	sha256sums_x86_64 = f6b29267fe2c4251ed95cf9c846b47774a970c5960be9eb8a409f21ffd98425e
 
 pkgname = joplin-desktop-bin
